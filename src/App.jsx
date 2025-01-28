@@ -1,9 +1,4 @@
 import React from "react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
-
 
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -17,6 +12,11 @@ import Services from "./components/Services";
 import ExperiencePage from "./components/ExperiencePage";
 import TeamSection from "./components/TeamSection";
 import Testimonials from "./components/Testimonials";
+import Clients from "./components/Clients";
+import FAQ from "./components/FAQ";
+import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -32,6 +32,10 @@ const App = () => {
               <ExperiencePage/>
               <TeamSection/>
               <Testimonials/>
+              <Clients/>
+              <FAQ/>
+              <ContactForm/>
+              <Footer/>
               {/* Rendered below ElevatorHero */}
             </>
           } /> Render ElevatorHero on the root path
